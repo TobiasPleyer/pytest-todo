@@ -32,7 +32,7 @@ sanctus est Lorem ipsum dolor sit amet.
 """
 
 import sys
-# TODO: Make is this needed?
+# TODO: Is this needed?
 import os
 
 class TestModuleClass:

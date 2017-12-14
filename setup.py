@@ -3,13 +3,13 @@ from setuptools import setup
 
 setup(
     name='pytest-todo',
-    version='0.1',
+    version='0.2',
     author='Tobias Pleyer',
     author_email='tobi.pleyer@gmail.com',
     description='A small plugin for the pytest test framework marking '
-                'TODO comments a failure',
+                'TODO comments as failure',
     packages=['todo'],
-    install_requires=[],
+    install_requires=['pytest'],
     include_package_data=True,
     entry_points = {
         'pytest11': [

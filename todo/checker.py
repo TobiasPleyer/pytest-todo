@@ -19,7 +19,7 @@ class TodoChecker(object):
 
     def summary(self):
         summary = "File {}\n".format(self.path)
-        summary += "Found {} TODOs\n".format(len(self.found))
-        info = "Line {lnum}: {text}"
+        summary += "Found {} TODOs\n\n".format(len(self.found))
+        info = "    Line {lnum}: {text}"
         summary += '\n'.join([info.format(**todo) for todo in self.found])
         return summary
