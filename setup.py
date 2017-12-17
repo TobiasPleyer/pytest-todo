@@ -6,7 +6,7 @@ setup(
     version='0.2',
     author='Tobias Pleyer',
     author_email='tobi.pleyer@gmail.com',
-    description='A small plugin for the pytest test framework marking '
+    description='A small plugin for the pytest testing framework, marking '
                 'TODO comments as failure',
     packages=['todo'],
     install_requires=['pytest'],
