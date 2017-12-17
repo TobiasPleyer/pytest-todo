@@ -2,3 +2,5 @@ pytest_todo.egg-info/
 todo/__pycache__/
 tests/__pycache__/
 .cache/
+build/
+dist/
