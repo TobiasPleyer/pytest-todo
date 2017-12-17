@@ -11,6 +11,16 @@ setup(
     packages=['todo'],
     install_requires=['pytest'],
     include_package_data=True,
+    classifiers = [
+        'Development Status :: 4 - Beta',
+        'Framework :: Pytest',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 3',
+        'Topic :: Software Development :: Testing',
+    ],
     entry_points = {
         'pytest11': [
             'todo = todo.plugin',
