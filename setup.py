@@ -12,7 +12,7 @@ def read(file_name):
 
 setup(
     name='pytest-todo',
-    version='0.2',
+    version='0.2.1',
     author='Tobias Pleyer',
     author_email='tobi.pleyer@gmail.com',
     description='A small plugin for the pytest testing framework, marking '
